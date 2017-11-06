@@ -3,28 +3,29 @@
 
 <head>
 
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="">
 
-    <title>Jim Judd</title>
+  <title>Jim Judd</title>
 
-    <!-- Bootstrap Core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+  <!-- Bootstrap Core CSS -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- Custom CSS -->
-    <link href="css/landing-page.css" rel="stylesheet">
-    <!-- Custom Fonts -->
-    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <!--
+  <!-- Custom CSS -->
+  <link href="css/landing-page.css" rel="stylesheet">
+  <link href="css/slideout.css" rel="stylesheet">
+  <!-- Custom Fonts -->
+  <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+  <!--
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
     -->
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,700" rel="stylesheet">
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,700" rel="stylesheet">
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
@@ -34,82 +35,92 @@
 <body>
 
 
+  <div class="overlay" aria-hidden="true"></div>
+  <div class="slide-panel slide-panel-vertical slide-panel-left slideout-about">
+    <a class="close offcanvas-toggle">
+       Close <i class="fa fa-times" aria-hidden="true"></i>
+     </a>
+    <div class="content">
+      <h3>About Me</h3>
+      <p>I am a results focused product manager with experience in business analysis and scrum/agile project managment.</p>
+      <p>I love tackling tough problems that don't have clear paths forward, and driving solutions that are valuable, meaningful and well thought out.</p>
+      <p>If I'm not heads down at work, you'll find me on my <a href="https://www.strava.com/athletes/807862">bike</a> or at home with my family.</p>
+      <p>To learn more about me, feel free to <a href="mailto:jamescjudd@gmail.com?Subject=Hello">reach out</a> or check out my <a href="Resume20171105.pdf">resume</a>.
+    </div>
+  </div>
 
-    <!-- Header -->
-    <div class="intro-header">
-        <div class="container">
+  <!-- Header -->
+  <div class="intro-header">
+    <div class="container">
 
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="intro-message">
-                        <h1>Jim Judd</h1>
-                        <h3>I taught Mr. T everything he knows.</h3>
-                        <hr class="intro-divider">
-                        <ul class="list-inline intro-social-buttons">
-                            <li>
-                                <a href="/resume.html" class="btn btn-default btn-lg"><span class="network-name">Resume</span></a>
-                            </li>
-                            <li>
-                                <a href="#" class="btn btn-default btn-lg offcanvas-toggle"><span class="network-name">About Me</span></a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="intro-message">
+            <h1>Jim Judd</h1>
+            <h3>I taught Mr. T everything he knows.</h3>
+            <hr class="intro-divider">
+            <ul class="list-inline intro-social-buttons">
+              <li>
+                <a href="Resume20171105.pdf" class="btn btn-default btn-lg"><span class="network-name">Resume</span></a>
+              </li>
+              <li>
+                <a href="#" class="btn btn-default btn-lg btn-about offcanvas-toggle"><span class="network-name">About Me</span></a>
+              </li>
+            </ul>
+          </div>
         </div>
-        <!-- /.container -->
+      </div>
 
     </div>
-    <!-- /.intro-header -->
+    <!-- /.container -->
 
-    
-
-    <!-- Footer -->
-    <footer id="bootstrap-overrides">
-        <nav class="row find-me-nav">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12">
-                        <ul class='list-inline'>
-                            <li>
-                                <a href="https://www.facebook.com/jamescjudd"><i class="fa fa-facebook fa-fw"></i></a>
-                            </li>
-                            <li>
-                                <a href="https://www.instagram.com/jim_ftw/"><i class="fa fa-instagram fa-fw"></i></a>
-                            </li>
-                            <li>
-                                <a href="https://twitter.com/jim_ftw"><i class="fa fa-twitter fa-fw"></i></a>
-                            </li>
-                            <li>
-                                <a href="https://www.linkedin.com/in/jamescjudd"><i class="fa fa-linkedin fa-fw"></i></a>
-                            </li>
-                            <li>
-                                <a href="https://bitbucket.org/jim_judd/"><i class="fa fa-bitbucket fa-fw"></i></span></a>
-                            </li>
-                            <li>
-                                <a href="https://github.com/jim-ftw/"><i class="fa fa-github fa-fw"></i></span></a>
-                            </li>
-                            <li>
-                                <a href="https://angel.co/jim-judd"><i class="fa fa-angellist fa-fw"></i></a>
-                            </li>
-                        </ul>
-
-                    </div>
-                </div>
-            </div>
-        </nav>
-    </footer>
+  </div>
+  <!-- /.intro-header -->
 
 
 
-    <!-- jQuery -->
-    <script src="js/jquery.js"></script>
+  <!-- Footer -->
+  <footer id="bootstrap-overrides">
+    <nav class="row find-me-nav">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <ul class='list-inline'>
+              <li>
+                <a href="https://www.facebook.com/jamescjudd"><i class="fa fa-facebook fa-fw"></i></a>
+              </li>
+              <li>
+                <a href="https://www.instagram.com/jim_ftw/"><i class="fa fa-instagram fa-fw"></i></a>
+              </li>
+              <li>
+                <a href="https://twitter.com/jim_ftw"><i class="fa fa-twitter fa-fw"></i></a>
+              </li>
+              <li>
+                <a href="https://www.linkedin.com/in/jamescjudd"><i class="fa fa-linkedin fa-fw"></i></a>
+              </li>
+              <li>
+                <a href="https://bitbucket.org/jim_judd/"><i class="fa fa-bitbucket fa-fw"></i></span></a>
+              </li>
+              <li>
+                <a href="https://github.com/jim-ftw/"><i class="fa fa-github fa-fw"></i></span></a>
+              </li>
+            </ul>
 
-    <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </footer>
 
-   
+
+
+  <!-- jQuery -->
+  <script src="js/jquery.js"></script>
+  <script src="js/main.js"></script>
+  <!-- Bootstrap Core JavaScript -->
+  <script src="js/bootstrap.min.js"></script>
+
+
 
 </body>
 
